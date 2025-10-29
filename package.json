@@ -9,7 +9,8 @@
     "check-types": "turbo run check-types",
     "dev:site": "turbo run dev --filter=@apps/site --filter=@apps/api --no-cache",
     "dev:api": "turbo run dev --filter=@apps/api --no-cache",
-    "turso:local": "turso dev --db-file ./apps/api/local.db"
+    "turso:local": "turso dev --db-file ./apps/api/local.db",
+    "ui:add": "cd packages/ui && bunx shadcn@latest add"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

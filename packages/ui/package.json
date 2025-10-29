@@ -14,7 +14,8 @@
   "scripts": {
     "lint": "eslint .",
     "check-types": "tsc --noEmit",
-    "build": "echo 'No build step needed for UI package'"
+    "build": "echo 'No build step needed for UI package'",
+    "add": "shadcn add"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
