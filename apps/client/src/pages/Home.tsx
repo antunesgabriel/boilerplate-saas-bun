@@ -1,4 +1,11 @@
-import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from "@repo/ui";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@repo/ui/components/card";
+import { Button } from "@repo/ui/components/button";
 
 export default function Home() {
   return (
@@ -28,9 +35,7 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>React Router</CardTitle>
-            <CardDescription>
-              Client-side routing made easy
-            </CardDescription>
+            <CardDescription>Client-side routing made easy</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
@@ -56,9 +61,7 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>TypeScript</CardTitle>
-            <CardDescription>
-              Full type safety throughout
-            </CardDescription>
+            <CardDescription>Full type safety throughout</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
@@ -76,4 +79,3 @@ export default function Home() {
     </div>
   );
 }
-

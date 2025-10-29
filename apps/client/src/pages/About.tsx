@@ -1,4 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@repo/ui";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@repo/ui/components/card";
 
 export default function About() {
   return (
@@ -13,9 +19,7 @@ export default function About() {
       <Card>
         <CardHeader>
           <CardTitle>About This App</CardTitle>
-          <CardDescription>
-            Built with modern technologies
-          </CardDescription>
+          <CardDescription>Built with modern technologies</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
@@ -44,4 +48,3 @@ export default function About() {
     </div>
   );
 }
-

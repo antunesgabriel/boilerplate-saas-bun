@@ -1,13 +1,14 @@
+import React from "react";
 import {
-  Button,
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@repo/ui";
+} from "@repo/ui/components/card";
+import { Button } from "@repo/ui/components/button";
 
-export default function Home() {
+export default function Page(): React.ReactElement {
   return (
     <main className="min-h-screen p-8">
       <div className="max-w-4xl mx-auto space-y-8">

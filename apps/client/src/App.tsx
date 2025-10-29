@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import { Button } from "@repo/ui";
+import { Button } from "@repo/ui/components/button";
 
 function App() {
   return (

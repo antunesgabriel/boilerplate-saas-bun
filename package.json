@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types",
     "dev:site": "turbo run dev --filter=@apps/site --filter=@apps/api --no-cache",
     "dev:api": "turbo run dev --filter=@apps/api --no-cache",
+    "dev:client": "turbo run dev --filter=@apps/client --no-cache",
     "turso:local": "turso dev --db-file ./apps/api/local.db",
     "ui:add": "cd packages/ui && bunx shadcn@latest add"
   },
