@@ -7,7 +7,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "dev:client": "turbo run dev --filter=@apps/client --filter=@apps/api --no-cache",
+    "dev:site": "turbo run dev --filter=@apps/site --filter=@apps/api --no-cache",
     "dev:api": "turbo run dev --filter=@apps/api --no-cache",
     "turso:local": "turso dev --db-file ./apps/api/local.db"
   },
