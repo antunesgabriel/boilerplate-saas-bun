@@ -7,15 +7,18 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "dev:site": "turbo run dev --filter=@apps/site --filter=@apps/api --no-cache",
+    "dev:site": "turbo run dev --filter=@apps/site --no-cache",
     "dev:api": "turbo run dev --filter=@apps/api --no-cache",
     "dev:client": "turbo run dev --filter=@apps/client --no-cache",
     "turso:local": "turso dev --db-file ./apps/api/local.db",
     "ui:add": "cd packages/ui && bunx shadcn@latest add"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "postcss": "^8.5.6",
     "prettier": "^3.6.2",
     "shadcn": "^3.5.0",
+    "tailwindcss": "^4.1.16",
     "turbo": "^2.5.6",
     "typescript": "5.9.2"
   },
